@@ -57,14 +57,19 @@ See the protocol specification:
 
 ## Demo
 
-A reference browser-based demo is under development.
+A browser-based reference demo is available.
 
-The demo demonstrates:
-- encoding data into a video stream
-- extracting data from the recorded video
+The demo focuses on the **GhostSignal transport layer** and demonstrates:
+- embedding data into a video stream using the VBB transport
+- exporting the resulting video
+- extracting embedded data from the video
 - real-time visualization of the decoding process
 
-Demo repository (coming soon):
+The demo does **not** yet implement the full GhostSignal v0 data layer
+(META bootstrapping, stream layouts, and raw payload framing),
+which are defined in the specification.
+
+Demo repository:
 👉 `ghost-signal-demo`
 
 ---
